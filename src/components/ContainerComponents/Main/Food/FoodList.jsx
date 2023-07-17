@@ -10,9 +10,7 @@ const FoodList = () => {
       setIsLoading(true);
       setError("");
       try {
-        const response = await fetch(
-          "https://food-order-react-a79f3-default-rtdb.europe-west1.firebasedatabase.app/foodlist.json"
-        );
+        const response = await fetch("FireBaseDatabase/foodList.json");
 
         const data = await response.json();
 

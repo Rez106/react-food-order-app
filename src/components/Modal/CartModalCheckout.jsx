@@ -13,16 +13,13 @@ const CartModalCheckout = (props) => {
       setIsLoading(true);
       setError("");
 
-      const response = await fetch(
-        "https://food-order-react-a79f3-default-rtdb.europe-west1.firebasedatabase.app/orders.json",
-        {
-          method: "POST",
-          body: JSON.stringify(order),
-          headers: {
-            "Content-type": "application/json",
-          },
-        }
-      );
+      const response = await fetch("FireBaseDatabase/orders.json", {
+        method: "POST",
+        body: JSON.stringify(order),
+        headers: {
+          "Content-type": "application/json",
+        },
+      });
 
       if (!response.ok) {
         throw new Error("Order Failed!");
