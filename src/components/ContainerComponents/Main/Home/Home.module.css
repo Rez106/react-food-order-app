@@ -1,0 +1,10 @@
+.banner {
+    background-image: url("../../../../../src/assets/image/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+.zipcode-input::-webkit-inner-spin-button,
+.zipcode-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.phone-input::-webkit-inner-spin-button,
+.phone-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,45 @@
+.food-action {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.food-amount-wrapper label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.food-amount-wrapper input {
+    width: 5rem;
+    padding: 0.5rem 0.7rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.food-order {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: none;
+    background-color: slateblue;
+    color: #fff;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.food-order:hover {
+    background-color: rgb(64, 55, 123);
+}
